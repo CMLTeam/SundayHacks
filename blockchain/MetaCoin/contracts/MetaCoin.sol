@@ -34,7 +34,4 @@ contract MetaCoin {
 		return amount * conversionRate;
 	}
 
-	function multiply(uint a) returns (uint d) {
-		return a * 7;
-	}
 }
