@@ -21,4 +21,7 @@ cd MetaCoin
 truffle init
 truffle compile
 truffle deploy
+truffle serve
+3. Connect MetaMask
+Use this tutorial: https://gist.github.com/flyswatter/aea93752fb90322bbe11
 
