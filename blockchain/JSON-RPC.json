@@ -5,6 +5,20 @@
   "requests": [
     {
       "collectionId": "260f3036-88c0-01b6-d992-f33bff3a292b",
+      "id": "0ec52697-b9ac-5291-6c1d-9e691e3de56b",
+      "name": "call",
+      "description": "",
+      "url": "http://localhost:8545/",
+      "method": "POST",
+      "headers": "Content-Type: application/json\nAccept: application/json\n",
+      "data": "{\n   \"jsonrpc\":\"2.0\",\n   \"method\":\"eth_call\",\n   \"params\":[\n      {\n         \"from\":\"0x7b2419e0ee0bd034f7bf24874c12512acac6e21c\",\n         \"to\":\"0x0ed8a84589b4aeac8826af31000c00bd8211a9e3\",\n         \"data\":\"0xc6888fa10000000000000000000000000000000000000000000000000000000000000005\"\n      }\n   ],\n   \"id\":1\n}\n",
+      "dataMode": "raw",
+      "timestamp": 0,
+      "version": 2,
+      "time": 1498394450619
+    },
+    {
+      "collectionId": "260f3036-88c0-01b6-d992-f33bff3a292b",
       "id": "337b15ea-3d46-51ac-062d-63558e808730",
       "name": "blockNumber",
       "description": "",
@@ -16,6 +30,20 @@
       "timestamp": 0,
       "version": 2,
       "time": 1498392768588
+    },
+    {
+      "collectionId": "260f3036-88c0-01b6-d992-f33bff3a292b",
+      "id": "3543ee52-35fd-6a0c-0e7e-8955ffab586b",
+      "name": "sendTransaction (call)",
+      "description": "",
+      "url": "http://localhost:8545/",
+      "method": "POST",
+      "headers": "Content-Type: application/json\nAccept: application/json\n",
+      "data": "{\n   \"jsonrpc\":\"2.0\",\n   \"method\":\"eth_sendTransaction\",\n   \"params\":[\n      {\n         \"from\":\"0x7b2419e0ee0bd034f7bf24874c12512acac6e21c\",\n         \"to\":\"0x0ed8a84589b4aeac8826af31000c00bd8211a9e3\",\n         \"data\":\"0xc6888fa10000000000000000000000000000000000000000000000000000000000000005\"\n      }\n   ],\n   \"id\":1\n}\n",
+      "dataMode": "raw",
+      "timestamp": 0,
+      "version": 2,
+      "time": 1498394624085
     },
     {
       "collectionId": "260f3036-88c0-01b6-d992-f33bff3a292b",
@@ -128,6 +156,20 @@
       "timestamp": 0,
       "version": 2,
       "time": 1498392670814
+    },
+    {
+      "collectionId": "260f3036-88c0-01b6-d992-f33bff3a292b",
+      "id": "cc34b414-32af-97a9-38b4-6d02615151b3",
+      "name": "sha3",
+      "description": "",
+      "url": "http://localhost:8545/",
+      "method": "POST",
+      "headers": "Content-Type: application/json\nAccept: application/json\n",
+      "data": "{\n   \"jsonrpc\":\"2.0\",\n   \"method\":\"web3_sha3\",\n   \"params\":[\n      \"multiply(uint256)\"\n   ],\n   \"id\":1\n}\n",
+      "dataMode": "raw",
+      "timestamp": 0,
+      "version": 2,
+      "time": 1498394068452
     },
     {
       "collectionId": "260f3036-88c0-01b6-d992-f33bff3a292b",
