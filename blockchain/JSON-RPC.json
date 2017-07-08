@@ -19,6 +19,20 @@
     },
     {
       "collectionId": "260f3036-88c0-01b6-d992-f33bff3a292b",
+      "id": "0f814987-6dd1-3f2e-5270-c3fbc0ebfb7f",
+      "name": "gasPrice",
+      "description": "",
+      "url": "http://localhost:8545/",
+      "method": "POST",
+      "headers": "Content-Type: application/json\nAccept: application/json\n",
+      "data": "{\n   \"jsonrpc\":\"2.0\",\n   \"method\":\"eth_gasPrice\",\n   \"params\":[\n\n   ],\n   \"id\":1\n}\n",
+      "dataMode": "raw",
+      "timestamp": 0,
+      "responses": [],
+      "version": 2
+    },
+    {
+      "collectionId": "260f3036-88c0-01b6-d992-f33bff3a292b",
       "id": "337b15ea-3d46-51ac-062d-63558e808730",
       "name": "blockNumber",
       "description": "",
@@ -170,6 +184,20 @@
       "timestamp": 0,
       "version": 2,
       "time": 1498394068452
+    },
+    {
+      "collectionId": "260f3036-88c0-01b6-d992-f33bff3a292b",
+      "id": "dbcea484-737a-5a08-8de1-51aed407e070",
+      "name": "getCode",
+      "description": "",
+      "url": "http://localhost:8545/",
+      "method": "POST",
+      "headers": "Content-Type: application/json\nAccept: application/json\n",
+      "data": "{\n   \"jsonrpc\":\"2.0\",\n   \"method\":\"eth_getCode\",\n   \"params\":[\n      \"0x932aa9a085dc9e3a326d29a32d36d186f180a82e\",\n      \"latest\"\n   ],\n   \"id\":1\n}\n",
+      "dataMode": "raw",
+      "timestamp": 0,
+      "version": 2,
+      "time": 1498403661114
     },
     {
       "collectionId": "260f3036-88c0-01b6-d992-f33bff3a292b",
